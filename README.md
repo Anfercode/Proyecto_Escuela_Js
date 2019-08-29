@@ -25,6 +25,6 @@ Este repo alojara el proyecto de la escuela de js, así mismo se creara un branc
 
 ## Avanzado
 
-* ### Curso de Frontend Developer ⭕️
-* ### Curso de Frontend Developer ⭕️
-* ### Curso de Frontend Developer ⭕️
+* ### Curso de Server Side Render con Express ⭕️
+* ### Curso de Autenticación con Passport.js ⭕️
+* ### Curso de Integración Backend con Frontend ⭕️
