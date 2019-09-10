@@ -13,7 +13,7 @@ Este repo alojara el proyecto de la escuela de js, así mismo se creara un branc
 ## Básico
 
 * ### Curso de Prework: Buenas Prácticas y Entorno de Desarrollo ✔️
-* ### Curso de Frontend Developer ⭕️
+* ### Curso de Frontend Developer ✔️
 * ### Fundamentos de JavaScript ✔️
 
 ## Intermedio
