@@ -1,0 +1,27 @@
+{
+  "name": "escuela-js",
+  "version": "1.0.0",
+  "description": "proyecto platzi video",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anfercode/Proyecto_Escuela_Js.git"
+  },
+  "author": "Andres Campero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anfercode/Proyecto_Escuela_Js/issues"
+  },
+  "homepage": "https://github.com/Anfercode/Proyecto_Escuela_Js#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@storybook/html": "^5.1.11",
+    "babel-loader": "^8.0.6"
+  },
+  "dependencies": {}
+}
