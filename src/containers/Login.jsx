@@ -1,7 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../assets/styles/components/Login.scss';
 import googleIcon from '../assets/static/google-icon.png';
 import twitterIcon from '../assets/static/twitter-icon.png';
+import Register from './Register';
 
 const Login = () => (
   <section className='login'>
@@ -14,7 +16,7 @@ const Login = () => (
         <div className='login__container--remember-me'>
           <label>
             <input type='checkbox' id='cbox1' value='first_checkbox' />
-                        Recuérdame
+            Recuérdame
           </label>
           <a href='/'>Olvidé mi contraseña</a>
         </div>
@@ -22,17 +24,19 @@ const Login = () => (
       <section className='login__container--social-media'>
         <div>
           <img src={googleIcon} alt='Google' />
-                    Inicia sesión con Google
+          Inicia sesión con Google
         </div>
         <div>
           <img src={twitterIcon} alt='Twitter' />
-                    Inicia sesión con Twitter
+          Inicia sesión con Twitter
         </div>
       </section>
       <p className='login__container--register'>
-                No tienes ninguna cuenta
+        No tienes ninguna cuenta
         {' '}
-        <a href='/'>Regístrate</a>
+        <Link to='/Register'>
+          Regístrate
+        </Link>
       </p>
     </section>
   </section>
